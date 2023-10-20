@@ -8,7 +8,7 @@ class Question < Formula
 
   def install
     system "pip3", "install", "openai", "rich", "halo"
-    bin.install "question.py" => "question"
+    bin.install "question" => "question"
   end
 
   test do
