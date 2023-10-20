@@ -15,4 +15,3 @@ class Question < Formula
     system "#{bin}/question", "--version" # or any other test command
   end
 end
-
